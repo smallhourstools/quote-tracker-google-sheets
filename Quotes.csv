@@ -1,0 +1,6 @@
+thread_id,client_email,subject,quote_sent_at,status,follow_ups_sent,last_follow_up_at,quote_amount,notes,days_waiting
+,dana.whitfield@example.com,Small Hours Test: kitchen paint quote,2026-10-09,quote_sent,1,2026-10-12,640,Asked about colors,
+,marcus.ortiz@example.com,Small Hours Test: fence repair quote,2026-10-14,quote_sent,0,,1200,,
+,priya.raman@example.com,Small Hours Test: deep clean quote,2026-10-06,replied,1,2026-10-09,380,Wants Saturday,
+,tom.becker@example.com,Small Hours Test: gutter quote,2026-10-02,accepted,2,2026-10-08,450,Starts Oct 20,
+,grace.lindqvist@example.com,Small Hours Test: patio quote,2026-09-28,no_reply,3,2026-10-10,2100,Stop after 3,

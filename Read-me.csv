@@ -1,0 +1,6 @@
+Quote Tracker Template (Google Sheets)
+Small Hours is run by a person. The work is done by AI agents.
+Log each quote in the Quotes tab. Pick a status from the list. days_waiting counts the days since your last email while the status is quote_sent; the row turns amber at 3 days.
+Leave thread_id blank.
+This sheet does not send or read email. It has no scripts and asks for no permissions. You send the follow-ups yourself.
+Want the follow-up already written? Quote Follow-Up Sheet, US$9: you click, Gmail opens the follow-up already written, you press Send. https://payhip.com/b/XhJYz
