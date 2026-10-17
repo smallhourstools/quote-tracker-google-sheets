@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free quote tracker template for Google Sheets · Small Hours</title>
+<meta name="description" content="Free quote tracker template for Google Sheets. One tab, a days_waiting count that turns amber at 3 days. Filled in by hand, no scripts.">
+<link rel="canonical" href="https://smallhourstools.github.io/quote-tracker-google-sheets/">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: #F1ECE2;
+    color: #1E2B2F;
+    font-family: "Archivo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+  main { max-width: 40rem; margin: 0 auto; padding: 2.5rem 1.25rem 1rem; }
+  h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 1.25rem; font-weight: 500; }
+  h2 { font-size: 1.25rem; line-height: 1.25; margin: 2.25rem 0 0.75rem; font-weight: 500; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+  li { margin-bottom: 0.5rem; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.9em; background: rgba(30,43,47,0.08); padding: 0.05em 0.3em; border-radius: 3px; }
+  img { display: block; max-width: 100%; height: auto; margin: 1.5rem 0 1.5rem; border: 1px solid rgba(30,43,47,0.2); }
+  a { color: #1E2B2F; text-underline-offset: 3px; }
+  .btn {
+    display: inline-block;
+    background: #1E2B2F;
+    color: #F1ECE2;
+    text-decoration: none;
+    padding: 0.85rem 1.4rem;
+    margin: 0.25rem 0 1rem;
+  }
+  .btn:focus-visible, a:focus-visible { outline: 3px solid #1E2B2F; outline-offset: 3px; }
+  .more { border-top: 1px solid rgba(30,43,47,0.25); margin-top: 2.25rem; padding-top: 1.25rem; }
+  footer { max-width: 40rem; margin: 0 auto; padding: 1rem 1.25rem 2.5rem; font-size: 0.9rem; border-top: 1px solid rgba(30,43,47,0.25); }
+  footer p { margin-bottom: 0.5rem; }
+  @media (max-width: 420px) { body { font-size: 17px; } h1 { font-size: 1.7rem; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Free quote tracker template for Google Sheets</h1>
+
+  <p>You send a quote. Three days later you can't remember which ones are still waiting.</p>
+  <p>This is a free Google Sheet that keeps your quotes in one place: who you sent it to, when, how much, what happened. It is a quote tracker for the owner of a small business, built on one tab you fill in by hand.</p>
+
+  <img src="images/quote-tracker.png" alt="The Quotes tab with a days_waiting column and one row in amber">
+
+  <h2>Get the sheet</h2>
+  <p>The easiest way is to make your own copy in Google Sheets.</p>
+  <p><a class="btn" href="https://payhip.com/b/z1uLh">Get the free sheet</a></p>
+  <p>It is free. Payhip asks for your email to send the link, and that is the only email asked for. Nothing to install, no scripts, no permissions to allow.</p>
+
+  <h2>What is in it</h2>
+  <ul>
+    <li>A <code>Quotes</code> tab with the columns you need: client email, subject, date sent, status, follow-ups sent, last follow-up, amount, notes.</li>
+    <li>A <code>days_waiting</code> column that counts the days since your last email while the status is <code>quote_sent</code>, and turns the row amber at 3 days.</li>
+    <li>A status list (<code>quote_sent</code>, <code>replied</code>, <code>accepted</code>, <code>declined</code>, <code>no_reply</code>) and five example rows to type over. Keep row 2: the <code>days_waiting</code> formula lives there.</li>
+    <li>A <code>Read me</code> tab with short instructions.</li>
+  </ul>
+  <p>Leave <code>thread_id</code> blank.</p>
+
+  <h2>Works for</h2>
+  <p>Quotes, estimates and bids. Any business where you send a price and wait for an answer.</p>
+
+  <h2>What it does not do</h2>
+  <ul>
+    <li>It does not send or read email, and it does not see that a client replied. You change the status yourself.</li>
+    <li>It does not send follow-ups for you.</li>
+  </ul>
+
+  <div class="more">
+    <p>Want the follow-up already written? <a href="https://payhip.com/b/XhJYz">Quote Follow-Up Sheet, US$9</a>: you click, Gmail opens the follow-up already written, you press Send.</p>
+  </div>
+</main>
+<footer>
+  <p>There is one person behind Small Hours, who handles the store. The work is done by a team of AI agents.</p>
+  <p>The CSV files of the sheet, under the MIT License, are in <a href="https://github.com/smallhourstools/quote-tracker-google-sheets">the GitHub repository</a>.</p>
+</footer>
+</body>
+</html>
